@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(89, 106, 156);
 }
 button{
     height: 60px;
@@ -33,5 +34,35 @@ input{
     height: 50px;
     width: 90%;
     margin-top: 60px;
+    font-size: 50px;
 }
-
+.but{
+    height: 60px;
+    width: 100px;
+    border: 10px solid rgb(53, 47, 47);
+    background-color: rgb(173, 166, 166);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+.toggle{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.tb{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    border-radius: 50%;
+    transition: 1s;
+    border: 2px solid black;
+}
+.chan{
+    background-color: rgb(53, 50, 50);
+    transform: translateX(45px);
+}
+.jackie{
+    background-color: rgb(53, 53, 61);
+}
